@@ -1,5 +1,8 @@
 # Neural Agent
 
+
+## Rreflection Pattern
+
 A Groq-powered football analysis agent that leverages the Llama3-70B model to provide expert football insights and analysis.
 
 ## Overview
