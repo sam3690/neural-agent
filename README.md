@@ -5,25 +5,25 @@
 
 A Groq-powered football analysis agent that leverages the Llama3-70B model to provide expert football insights and analysis.
 
-### Overview
+## Overview
 
 Neural Agent is a Python application that connects to the Groq API to generate football analysis content. It uses the powerful Llama3-70B-8192 model to provide expert responses to football-related queries.
 
-### Features
+## Features
 
 - Connects to Groq's LLM API for advanced natural language processing
 - Provides expert football analysis and insights
 - Simple command-line interface for interacting with the agent
 - Configurable through environment variables
 
-### Installation
+## Installation
 
-#### Prerequisites
+### Prerequisites
 
 - Python 3.12 or higher
 - Groq API key
 
-#### Setup
+### Setup
 
 1. Clone the repository:
    ```bash
@@ -46,7 +46,7 @@ Neural Agent is a Python application that connects to the Groq API to generate f
    GROQ_API_KEY=your_groq_api_key_here
    ```
 
-### Usage
+## Usage
 
 Run the agent using:
 
@@ -60,7 +60,7 @@ Or if installed via Poetry:
 poetry run python -m neural_agent
 ```
 
-### Project Structure
+## Project Structure
 
 ```
 neural-agent/
@@ -75,13 +75,13 @@ neural-agent/
     └── __init__.py      # Test package initialization
 ```
 
-### Dependencies
+## Dependencies
 
 - python-dotenv: For loading environment variables
 - groq: Official Groq API client
 - ipython: For enhanced display capabilities
 
-### Development
+## Development
 
 To contribute to this project:
 
@@ -90,10 +90,10 @@ To contribute to this project:
 3. Make your changes
 4. Submit a pull request
 
-<!-- ### License
+<!-- ## License
 
 [Specify your license here] -->
 
-### Author
+## Author
 
 - sam3690 (usamabinayoub@gmail.com)
