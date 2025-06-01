@@ -1,8 +1,8 @@
 import os
-from pprint import pprint
+# from pprint import pprint
+# from IPython.display import display_markdown
 from groq import Groq
 from dotenv import load_dotenv
-from IPython.display import display_markdown
 from pathlib import Path
 
 load_dotenv(Path(__file__).parent.parent.parent / '.env')  # Updated path for package structure
