@@ -7,14 +7,14 @@ from pathlib import Path
 
 load_dotenv(Path(__file__).parent.parent.parent / '.env')  # Updated path for package structure
 
-print("GROQ_API_KEY exists:", os.getenv("GROQ_API_KEY") is not None)
+# print("GROQ_API_KEY exists:", os.getenv("GROQ_API_KEY") is not None)
 # load_dotenv()
 
 client = Groq()
 
 generation_chat_history = [{
     "role": "system",
-    "content": """You are an exprt football analyst
+    "content": """You are an expert forecaster
     Your task is to Generate the best content possible for the user's request. If the user provides critique,"
     respond with a revised version of your previous attempt."""
 }]
@@ -22,7 +22,7 @@ generation_chat_history = [{
 generation_chat_history.append(
     {
         "role": "user",
-        "content": "What is the best way to play football?"
+        "content": "how is the weather today in india"
     }
 )
 

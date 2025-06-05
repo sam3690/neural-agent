@@ -16,6 +16,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "neural_agent", from = "src"}]
 
+[tool.poetry.scripts]
+neural-agent = "neural_agent:main"
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
